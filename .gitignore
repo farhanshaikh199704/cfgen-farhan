@@ -1,0 +1,68 @@
+# Scraped data
+cfgen_articles.jsonl
+*.jsonl
+data/
+
+# data in general
+*.csv
+*.json
+*.jsonl
+*.parquet
+*.pkl
+*.pickle
+
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.env
+.venv
+
+# Jupyter Notebook
+*/.ipynb_checkpoints/*
+*.nbconvert.ipynb
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Local configuration
+config.ini
+.env.local
+.env.*.local
+
+# Debug files
+debug/ 
+
+# parquet files
+*.parquet.claude/
